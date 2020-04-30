@@ -26,7 +26,7 @@ $('.forwards').click(function(){
     // se falso aggiungo la classe active alla prima immagine e quindi torno direttamente all'inizio del carosello;
     } else {
         img_next = $('img:first-of-type').addClass('active');
-        // per i pallini la condizione false significa in egual modo ripartire dall'inizio e ripristinare quindi la condizione iniziale;
+        // per i pallini la condizione false significa in egual modo ripartire dall'inizio e ripristinare quindi la condizione iniziale, ossia con il primo pallino pieno e tutti i successivi vuoti;
         circle_next = $('.pallini i:first-of-type').removeClass('far');
         circle_next = $('.pallini i:first-of-type').addClass('fas')
     }
