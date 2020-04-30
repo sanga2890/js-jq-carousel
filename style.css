@@ -21,6 +21,10 @@
     cursor: pointer;
 }
 
+.backwards:hover, .forwards:hover {
+    opacity: 0.5;
+}
+
 .forwards {
     justify-content: flex-end;
 }
