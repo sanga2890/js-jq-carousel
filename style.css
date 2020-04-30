@@ -8,7 +8,6 @@
     max-width: 1170px;
     margin: 0 auto;
     height: 100vh;
-    background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +15,10 @@
 
 .backwards, .forwards {
     width: 5%;
-    background-color: gold;
     height: 60%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .forwards {
@@ -28,7 +27,6 @@
 
 .carousel {
     width: 90%;
-    background-color: green;
     height: 60%;
 }
 
