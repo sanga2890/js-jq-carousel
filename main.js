@@ -64,3 +64,45 @@ $('.backwards').click(function(){
         circle_prev = $('.pallini i:last-of-type').addClass('fas')
     }
 })
+
+
+$('.pallini i:eq(0)').click(function(){
+    $('img').removeClass('active')
+    $('.carousel img:eq(0)').addClass('active')
+    $('.pallini i').removeClass('fas')
+    $('.pallini i').addClass('far')
+    $('.pallini i:eq(0)').addClass('fas')
+
+})
+$('.pallini i:eq(1)').click(function(){
+    $('img').removeClass('active')
+    $('.carousel img:eq(1)').addClass('active')
+    $('.pallini i').removeClass('fas')
+    $('.pallini i').addClass('far')
+    $('.pallini i:eq(1)').addClass('fas')
+
+})
+$('.pallini i:eq(2)').click(function(){
+    $('img').removeClass('active')
+    $('.carousel img:eq(2)').addClass('active')
+    $('.pallini i').removeClass('fas')
+    $('.pallini i').addClass('far')
+    $('.pallini i:eq(2)').addClass('fas')
+
+})
+$('.pallini i:eq(3)').click(function(){
+    $('img').removeClass('active')
+    $('.carousel img:eq(3)').addClass('active')
+    $('.pallini i').removeClass('fas')
+    $('.pallini i').addClass('far')
+    $('.pallini i:eq(3)').addClass('fas')
+
+})
+$('.pallini i:eq(4)').click(function(){
+    $('img').removeClass('active')
+    $('.carousel img:eq(4)').addClass('active')
+    $('.pallini i').removeClass('fas')
+    $('.pallini i').addClass('far')
+    $('.pallini i:eq(4)').addClass('fas')
+
+})
