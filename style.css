@@ -32,6 +32,7 @@
 .carousel {
     width: 90%;
     height: 70%;
+    position: relative;
 }
 
 .carousel img {
@@ -55,4 +56,24 @@ img.active {
 
 .pallini i {
     margin: 5px;
+}
+
+.play-pause {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.play-pause i {
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.play-pause i.fas:hover{
+    opacity: 1;
 }
