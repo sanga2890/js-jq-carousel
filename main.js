@@ -110,7 +110,7 @@ $('.pallini i:eq(4)').click(function(){
 
 // Fare sì che il carousel funzioni con l'autoplay, ossia che automaticamente ogni 3 secondi cambi slide e venga visualizzata l'immagine successiva;
 // Dichiaro una variabile e imposto l'intervallo di tempo. Inserisco poi la funzione con le istruzioni per lo slide dell'immagine;
-
+// Aggiungo il bottone Play sottoforma di icona e gli abbino il click per far partire l'animazione;
 $('.play-pause .fas.fa-play').click(function(){
     var clock = setInterval(auto_slide, 3000);
     function auto_slide() {
@@ -145,6 +145,7 @@ $('.play-pause .fas.fa-play').click(function(){
         }
 
     }
+    // creo collegamento al click sull'icona pause per fermare l'animazione;
     $('.play-pause .fas.fa-pause').click(function(){
         clearInterval(clock)
     })
